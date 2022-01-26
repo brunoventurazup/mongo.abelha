@@ -1,0 +1,5 @@
+spring.data.mongodb.uri: mongodb://local:local@localhost:27017/admin?authSource=admin
+
+mongock:
+  migration-scan-package:
+    - br.com.bruni.mongo.abelha.db.migrations
